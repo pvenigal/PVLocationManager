@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61D4B40F1E67EBF83BF381B1 /* libPods-PVLocationManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9718434C3AD5F83CFC972AFE /* libPods-PVLocationManagerTests.a */; };
+		9430FF9FB4116E8D48603CC1 /* libPods-PVLocationManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDACF2C655F3CE82BC9EDFD /* libPods-PVLocationManager.a */; };
+		9DFD1C3D61C20846F2D509DE /* libPods-PVLocationManagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECF80F6EC9C8E1C8162B276 /* libPods-PVLocationManagerUITests.a */; };
+		C3173AC52223C69400BD5D62 /* PVLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3173AC42223C69400BD5D62 /* PVLocationManager.m */; };
+		C3B8F3661E653291006E0EE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8F3651E653291006E0EE8 /* main.m */; };
+		C3B8F3691E653291006E0EE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8F3681E653291006E0EE8 /* AppDelegate.m */; };
+		C3B8F36C1E653291006E0EE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8F36B1E653291006E0EE8 /* ViewController.m */; };
+		C3B8F36F1E653291006E0EE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B8F36D1E653291006E0EE8 /* Main.storyboard */; };
+		C3B8F3711E653291006E0EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B8F3701E653291006E0EE8 /* Assets.xcassets */; };
+		C3B8F3741E653291006E0EE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B8F3721E653291006E0EE8 /* LaunchScreen.storyboard */; };
+		C3B8F37F1E653291006E0EE8 /* PVLocationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8F37E1E653291006E0EE8 /* PVLocationManagerTests.m */; };
+		C3B8F38A1E653291006E0EE8 /* PVLocationManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B8F3891E653291006E0EE8 /* PVLocationManagerUITests.m */; };
+		C3B8F3991E6532B7006E0EE8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B8F3981E6532B7006E0EE8 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3B8F37B1E653291006E0EE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B8F3591E653291006E0EE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B8F3601E653291006E0EE8;
+			remoteInfo = PVLocationManager;
+		};
+		C3B8F3861E653291006E0EE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B8F3591E653291006E0EE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B8F3601E653291006E0EE8;
+			remoteInfo = PVLocationManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DC1174703A60B12EFD06747 /* Pods-PVLocationManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVLocationManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PVLocationManagerUITests/Pods-PVLocationManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		12F4767C31C6A9E64BA37913 /* Pods-PVLocationManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVLocationManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PVLocationManager/Pods-PVLocationManager.debug.xcconfig"; sourceTree = "<group>"; };
+		3FE7F230B74EDF8634E46F99 /* Pods-PVLocationManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVLocationManagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PVLocationManagerUITests/Pods-PVLocationManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4DDACF2C655F3CE82BC9EDFD /* libPods-PVLocationManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PVLocationManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9718434C3AD5F83CFC972AFE /* libPods-PVLocationManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PVLocationManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E7A62B29844815A3F5C47DD /* Pods-PVLocationManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVLocationManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-PVLocationManager/Pods-PVLocationManager.release.xcconfig"; sourceTree = "<group>"; };
+		9ECF80F6EC9C8E1C8162B276 /* libPods-PVLocationManagerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PVLocationManagerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88C96773ED999C5A248AD6B /* Pods-PVLocationManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVLocationManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PVLocationManagerTests/Pods-PVLocationManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3173AC32223C69400BD5D62 /* PVLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVLocationManager.h; path = "PVLocationManager-iOS-SDK/PVLocationManager.h"; sourceTree = "<group>"; };
+		C3173AC42223C69400BD5D62 /* PVLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVLocationManager.m; path = "PVLocationManager-iOS-SDK/PVLocationManager.m"; sourceTree = "<group>"; };
+		C3B8F3611E653291006E0EE8 /* PVLocationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PVLocationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B8F3651E653291006E0EE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3B8F3671E653291006E0EE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3B8F3681E653291006E0EE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3B8F36A1E653291006E0EE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3B8F36B1E653291006E0EE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3B8F36E1E653291006E0EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3B8F3701E653291006E0EE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3B8F3731E653291006E0EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3B8F3751E653291006E0EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B8F37A1E653291006E0EE8 /* PVLocationManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PVLocationManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B8F37E1E653291006E0EE8 /* PVLocationManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVLocationManagerTests.m; sourceTree = "<group>"; };
+		C3B8F3801E653291006E0EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B8F3851E653291006E0EE8 /* PVLocationManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PVLocationManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B8F3891E653291006E0EE8 /* PVLocationManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVLocationManagerUITests.m; sourceTree = "<group>"; };
+		C3B8F38B1E653291006E0EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B8F3981E6532B7006E0EE8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D2ABB20223D29086E3430798 /* Pods-PVLocationManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVLocationManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PVLocationManagerTests/Pods-PVLocationManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3B8F35E1E653291006E0EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B8F3991E6532B7006E0EE8 /* CoreLocation.framework in Frameworks */,
+				9430FF9FB4116E8D48603CC1 /* libPods-PVLocationManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B8F3771E653291006E0EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D4B40F1E67EBF83BF381B1 /* libPods-PVLocationManagerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B8F3821E653291006E0EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFD1C3D61C20846F2D509DE /* libPods-PVLocationManagerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4B5CDA5835713C99EE23BEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12F4767C31C6A9E64BA37913 /* Pods-PVLocationManager.debug.xcconfig */,
+				9E7A62B29844815A3F5C47DD /* Pods-PVLocationManager.release.xcconfig */,
+				D2ABB20223D29086E3430798 /* Pods-PVLocationManagerTests.debug.xcconfig */,
+				B88C96773ED999C5A248AD6B /* Pods-PVLocationManagerTests.release.xcconfig */,
+				0DC1174703A60B12EFD06747 /* Pods-PVLocationManagerUITests.debug.xcconfig */,
+				3FE7F230B74EDF8634E46F99 /* Pods-PVLocationManagerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3B8F3581E653291006E0EE8 = {
+			isa = PBXGroup;
+			children = (
+				C3B8F39A1E6532C2006E0EE8 /* PVLocationManager-iOS-SDK */,
+				C3B8F3631E653291006E0EE8 /* PVLocationManager */,
+				C3B8F37D1E653291006E0EE8 /* PVLocationManagerTests */,
+				C3B8F3881E653291006E0EE8 /* PVLocationManagerUITests */,
+				C3B8F3621E653291006E0EE8 /* Products */,
+				C3B8F3971E6532B7006E0EE8 /* Frameworks */,
+				B4B5CDA5835713C99EE23BEE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C3B8F3621E653291006E0EE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3B8F3611E653291006E0EE8 /* PVLocationManager.app */,
+				C3B8F37A1E653291006E0EE8 /* PVLocationManagerTests.xctest */,
+				C3B8F3851E653291006E0EE8 /* PVLocationManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3B8F3631E653291006E0EE8 /* PVLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				C3B8F3671E653291006E0EE8 /* AppDelegate.h */,
+				C3B8F3681E653291006E0EE8 /* AppDelegate.m */,
+				C3B8F36A1E653291006E0EE8 /* ViewController.h */,
+				C3B8F36B1E653291006E0EE8 /* ViewController.m */,
+				C3B8F36D1E653291006E0EE8 /* Main.storyboard */,
+				C3B8F3701E653291006E0EE8 /* Assets.xcassets */,
+				C3B8F3721E653291006E0EE8 /* LaunchScreen.storyboard */,
+				C3B8F3751E653291006E0EE8 /* Info.plist */,
+				C3B8F3641E653291006E0EE8 /* Supporting Files */,
+			);
+			path = PVLocationManager;
+			sourceTree = "<group>";
+		};
+		C3B8F3641E653291006E0EE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B8F3651E653291006E0EE8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3B8F37D1E653291006E0EE8 /* PVLocationManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B8F37E1E653291006E0EE8 /* PVLocationManagerTests.m */,
+				C3B8F3801E653291006E0EE8 /* Info.plist */,
+			);
+			path = PVLocationManagerTests;
+			sourceTree = "<group>";
+		};
+		C3B8F3881E653291006E0EE8 /* PVLocationManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B8F3891E653291006E0EE8 /* PVLocationManagerUITests.m */,
+				C3B8F38B1E653291006E0EE8 /* Info.plist */,
+			);
+			path = PVLocationManagerUITests;
+			sourceTree = "<group>";
+		};
+		C3B8F3971E6532B7006E0EE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B8F3981E6532B7006E0EE8 /* CoreLocation.framework */,
+				4DDACF2C655F3CE82BC9EDFD /* libPods-PVLocationManager.a */,
+				9718434C3AD5F83CFC972AFE /* libPods-PVLocationManagerTests.a */,
+				9ECF80F6EC9C8E1C8162B276 /* libPods-PVLocationManagerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B8F39A1E6532C2006E0EE8 /* PVLocationManager-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				C3173AC32223C69400BD5D62 /* PVLocationManager.h */,
+				C3173AC42223C69400BD5D62 /* PVLocationManager.m */,
+			);
+			name = "PVLocationManager-iOS-SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3B8F3601E653291006E0EE8 /* PVLocationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B8F38E1E653291006E0EE8 /* Build configuration list for PBXNativeTarget "PVLocationManager" */;
+			buildPhases = (
+				2A2C27D24CDF5275E99374E9 /* [CP] Check Pods Manifest.lock */,
+				C3B8F35D1E653291006E0EE8 /* Sources */,
+				C3B8F35E1E653291006E0EE8 /* Frameworks */,
+				C3B8F35F1E653291006E0EE8 /* Resources */,
+				529FE595514CF0945AB24A0C /* [CP] Embed Pods Frameworks */,
+				1934988BAC3358CFF5568849 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PVLocationManager;
+			productName = PVLocationManager;
+			productReference = C3B8F3611E653291006E0EE8 /* PVLocationManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3B8F3791E653291006E0EE8 /* PVLocationManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B8F3911E653291006E0EE8 /* Build configuration list for PBXNativeTarget "PVLocationManagerTests" */;
+			buildPhases = (
+				B4F5E8CF924057085F12A049 /* [CP] Check Pods Manifest.lock */,
+				C3B8F3761E653291006E0EE8 /* Sources */,
+				C3B8F3771E653291006E0EE8 /* Frameworks */,
+				C3B8F3781E653291006E0EE8 /* Resources */,
+				678AD0F27B99AA20DE8E1D78 /* [CP] Embed Pods Frameworks */,
+				3D87E61B64118BFBAD5FC05E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3B8F37C1E653291006E0EE8 /* PBXTargetDependency */,
+			);
+			name = PVLocationManagerTests;
+			productName = PVLocationManagerTests;
+			productReference = C3B8F37A1E653291006E0EE8 /* PVLocationManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3B8F3841E653291006E0EE8 /* PVLocationManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B8F3941E653291006E0EE8 /* Build configuration list for PBXNativeTarget "PVLocationManagerUITests" */;
+			buildPhases = (
+				853759AA4435155A8F649580 /* [CP] Check Pods Manifest.lock */,
+				C3B8F3811E653291006E0EE8 /* Sources */,
+				C3B8F3821E653291006E0EE8 /* Frameworks */,
+				C3B8F3831E653291006E0EE8 /* Resources */,
+				AE6F498E089E9486F1EB13CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3B8F3871E653291006E0EE8 /* PBXTargetDependency */,
+			);
+			name = PVLocationManagerUITests;
+			productName = PVLocationManagerUITests;
+			productReference = C3B8F3851E653291006E0EE8 /* PVLocationManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3B8F3591E653291006E0EE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Prasanth Venigalla";
+				TargetAttributes = {
+					C3B8F3601E653291006E0EE8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C3B8F3791E653291006E0EE8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3B8F3601E653291006E0EE8;
+					};
+					C3B8F3841E653291006E0EE8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3B8F3601E653291006E0EE8;
+					};
+				};
+			};
+			buildConfigurationList = C3B8F35C1E653291006E0EE8 /* Build configuration list for PBXProject "PVLocationManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3B8F3581E653291006E0EE8;
+			productRefGroup = C3B8F3621E653291006E0EE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3B8F3601E653291006E0EE8 /* PVLocationManager */,
+				C3B8F3791E653291006E0EE8 /* PVLocationManagerTests */,
+				C3B8F3841E653291006E0EE8 /* PVLocationManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3B8F35F1E653291006E0EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B8F3741E653291006E0EE8 /* LaunchScreen.storyboard in Resources */,
+				C3B8F3711E653291006E0EE8 /* Assets.xcassets in Resources */,
+				C3B8F36F1E653291006E0EE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B8F3781E653291006E0EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B8F3831E653291006E0EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1934988BAC3358CFF5568849 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PVLocationManager/Pods-PVLocationManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A2C27D24CDF5275E99374E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D87E61B64118BFBAD5FC05E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PVLocationManagerTests/Pods-PVLocationManagerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		529FE595514CF0945AB24A0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PVLocationManager/Pods-PVLocationManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		678AD0F27B99AA20DE8E1D78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PVLocationManagerTests/Pods-PVLocationManagerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		853759AA4435155A8F649580 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6F498E089E9486F1EB13CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PVLocationManagerUITests/Pods-PVLocationManagerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4F5E8CF924057085F12A049 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3B8F35D1E653291006E0EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3173AC52223C69400BD5D62 /* PVLocationManager.m in Sources */,
+				C3B8F36C1E653291006E0EE8 /* ViewController.m in Sources */,
+				C3B8F3691E653291006E0EE8 /* AppDelegate.m in Sources */,
+				C3B8F3661E653291006E0EE8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B8F3761E653291006E0EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B8F37F1E653291006E0EE8 /* PVLocationManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B8F3811E653291006E0EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B8F38A1E653291006E0EE8 /* PVLocationManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3B8F37C1E653291006E0EE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3B8F3601E653291006E0EE8 /* PVLocationManager */;
+			targetProxy = C3B8F37B1E653291006E0EE8 /* PBXContainerItemProxy */;
+		};
+		C3B8F3871E653291006E0EE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3B8F3601E653291006E0EE8 /* PVLocationManager */;
+			targetProxy = C3B8F3861E653291006E0EE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3B8F36D1E653291006E0EE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B8F36E1E653291006E0EE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3B8F3721E653291006E0EE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B8F3731E653291006E0EE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3B8F38C1E653291006E0EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3B8F38D1E653291006E0EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3B8F38F1E653291006E0EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F4767C31C6A9E64BA37913 /* Pods-PVLocationManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PVLocationManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PVLocationManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3B8F3901E653291006E0EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7A62B29844815A3F5C47DD /* Pods-PVLocationManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PVLocationManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PVLocationManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3B8F3921E653291006E0EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2ABB20223D29086E3430798 /* Pods-PVLocationManagerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PVLocationManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PVLocationManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PVLocationManager.app/PVLocationManager";
+			};
+			name = Debug;
+		};
+		C3B8F3931E653291006E0EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88C96773ED999C5A248AD6B /* Pods-PVLocationManagerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PVLocationManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PVLocationManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PVLocationManager.app/PVLocationManager";
+			};
+			name = Release;
+		};
+		C3B8F3951E653291006E0EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC1174703A60B12EFD06747 /* Pods-PVLocationManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PVLocationManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PVLocationManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PVLocationManager;
+			};
+			name = Debug;
+		};
+		C3B8F3961E653291006E0EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE7F230B74EDF8634E46F99 /* Pods-PVLocationManagerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PVLocationManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PVLocationManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PVLocationManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3B8F35C1E653291006E0EE8 /* Build configuration list for PBXProject "PVLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B8F38C1E653291006E0EE8 /* Debug */,
+				C3B8F38D1E653291006E0EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B8F38E1E653291006E0EE8 /* Build configuration list for PBXNativeTarget "PVLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B8F38F1E653291006E0EE8 /* Debug */,
+				C3B8F3901E653291006E0EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B8F3911E653291006E0EE8 /* Build configuration list for PBXNativeTarget "PVLocationManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B8F3921E653291006E0EE8 /* Debug */,
+				C3B8F3931E653291006E0EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B8F3941E653291006E0EE8 /* Build configuration list for PBXNativeTarget "PVLocationManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B8F3951E653291006E0EE8 /* Debug */,
+				C3B8F3961E653291006E0EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3B8F3591E653291006E0EE8 /* Project object */;
+}
